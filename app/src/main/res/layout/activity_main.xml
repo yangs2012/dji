@@ -5,18 +5,19 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/main_bt_waypoint"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="路径飞行"
-        android:textSize="20dp" />
-
-    <Button
         android:id="@+id/main_bt_realtime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
         android:text="实时画面"
         android:textSize="20dp" />
 
+    <Button
+        android:id="@+id/main_bt_waypoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="路径飞行"
+        android:textSize="20dp" />
 
 </LinearLayout>
